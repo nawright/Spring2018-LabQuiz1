@@ -17,14 +17,20 @@ public class CourseScheduler {
     public static void main(String[] args) {
         Instructor test1 = new Instructor();
         Instructor test2 = new Instructor("First Name","Last Name","Building",5);
-        System.out.println(test1.toString());
-        System.out.println(test2.toString());
+        //System.out.println(test1.toString());
+        //System.out.println(test2.toString());
         
         Textbook book1 = new Textbook();
         Textbook book2 = new Textbook("A name","by some guy",-12);
-        System.out.println(book1.toString());
+        //System.out.println(book1.toString());
         System.out.println("");
-        System.out.println(book2.toString());
+        //System.out.println(book2.toString());
+        
+        //Course class1 = new Course();
+        Course class2 = new Course("Nolan","2020",test2,book2);
+        //System.out.println(class1.toString());
+        //System.out.println("");
+        //System.out.println(class2.toString());
     }
     
 }
